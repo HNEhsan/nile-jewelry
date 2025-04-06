@@ -1,0 +1,22 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "dev": "postcss ./src/css/tailwind.css -o ./public/build/tailwind.css --watch",
+    "prod": "cross-env NODE_ENV=production postcss ./src/css/tailwind.css -o ./public/build/tailwind.css"
+  },
+  "keywords": [],
+  "author": "Ehsan Hosseinnejad",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.3",
+    "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.3"
+  }
+}
