@@ -9,13 +9,83 @@
     <title>گالری طلا و جواهری نیل</title>
 </head>
 
-<body class="cbg_primary flex flex-col justify-center items-center h-screen">
+<body class="overflow-hidden">
 
-    <div class="flex flex-col justify-center items-center h-screen">
-        <img src="../assets/images/favicon.svg" alt="Logo" class="w-1/2 mb-4">
-        <h1 class="text-white text-3xl font-bold mb-2">گالری طلا و جواهری نیل</h1>
-        <p class="text-white text-lg">به زودی در دسترس خواهد بود</p>
-    </div>
+    <!-- Main Section -->
+    <main class="cbg_primary flex flex-col justify-center h-screen px-5">
+
+        <!-- Welcom Section -->
+        <div class="bg-black rounded-lg p-2 shadow-lg mx-auto sm:w-ful md:w-fit hidden" name="welcomeSection">
+            <img src="../assets/images/favicon.svg" alt="Nile-Jewelry-Logo" class="w-44 h-44 mx-auto mb-4">
+            <p class="text-white text-center mb-4">به گالری طلا و جواهری نیل خوش آمدید ! </p>
+            <p class="text-gray-600 text-center mb-4">
+                ما بهترین و زیباترین طلا و جواهرات را برای شما فراهم کرده‌ایم.
+            </p>
+
+            <!-- Confirm Button -->
+            <div class="flex justify-center items-center mt-8">
+                <button type="button" name="btnStart"
+                    class="bg-transparent text-white mb-8 border-2 border-gray-700 px-6 py-2 rounded transition duration-200 hover:bg-amber-300 hover:text-black cursor-pointer">
+                    ورود به گالری
+                </button>
+            </div>
+            <!--  -->
+        </div>
+        <!--  -->
+
+        <!-- Login Section -->
+        <div class="bg-black rounded-lg p-2 shadow-lg mx-auto w-fit md:w-1/4 " name="loginSection">
+            <img src="../assets/images/favicon.svg" alt="Nile-Jewelry-Logo" class="w-44 h-44 mx-auto mb-4">
+            <div>
+
+                <!-- Login -->
+                <div class="flex justify-center items-center mt-8">
+                    <form action="/login" method="post" autocomplete="off" class="flex flex-col items-center">
+                        <input type="text" name="username" placeholder="نام کاربری"
+                            class="bg-gray-800 text-white px-4 py-2 rounded-lg mb-4 w-full">
+                        <input type="password" name="password" placeholder="رمز عبور"
+                            class="bg-gray-800 text-white px-4 py-2 rounded-lg mb-4 w-full">
+                        <button type="submit"
+                            class="bg-transparent text-white mb-8 border-2 border-gray-700 px-6 py-2 rounded transition duration-200 hover:bg-amber-300 hover:text-black cursor-pointer">
+                            ورود
+                        </button>
+                    </form>
+                </div>
+
+                <!-- SignUp -->
+                <div class="flex justify-center items-center mt-8">
+                    <p
+                        class="bg-transparent text-white mb-8 border-2 border-gray-700 px-6 py-2 rounded transition duration-200 hover:bg-amber-300 hover:text-black cursor-pointer">
+                        ثبت نام
+                    </p>
+                </div>
+                <!--  -->
+
+            </div>
+
+        </div>
+        <!--  -->
+
+    </main>
+    <!--  -->
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-center py-4  rounded-lg shadow-lg fixed bottom-0 mx-auto w-full">
+        <div class="flex justify-center items-center text-gray-400 sm:text-sm text-xs">
+            <p> تمام حقوق مادی و معنوی برای </p>
+            <h1 class="font-bold golden px-2">
+                <a href="#" class="text-amber-300 hover:text-amber-500 transition duration-200">
+                    جواهری نیل
+                </a>
+            </h1>
+            <p> می باشد &copy; </p>
+        </div>
+    </footer>
+    <!--  -->
+
+    <!-- Add Javascript -->
+    <script type="module" src="../src/js/auth.js"></script>
+    <!--  -->
 
 </body>
 

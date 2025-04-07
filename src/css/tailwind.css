@@ -1,11 +1,15 @@
 @import url("../../src/css/fonts.css");
 @import "tailwindcss";
 
-@layer components{
-    .text_x_small{        
+@layer components {
+    .text_x_small {
         font-size: x-small;
     }
-    .cbg_primary{
+
+    .cbg_primary {
         background-color: #070D25;
-    }    
+    }
+    .golden {
+        color: #D4AF37;
+    }
 }
