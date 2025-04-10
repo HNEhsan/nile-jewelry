@@ -32,10 +32,8 @@ window.onload = () => {
         // toggle the type of the password input between text and password
         if (passwordInput.type === "password") {
             passwordInput.type = "text";
-            showPasswordBtn.innerHTML = '<i class="fa-solid fa-eye-slash"></i>';
         } else {
             passwordInput.type = "password";
-            showPasswordBtn.innerHTML = '<i class="fa-solid fa-eye"></i>';
         }
     });
 
