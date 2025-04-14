@@ -2,6 +2,11 @@
 @import "tailwindcss";
 
 @layer components {
+
+    .text_small {
+        font-size: small;
+    }
+
     .text_x_small {
         font-size: x-small;
     }
@@ -9,7 +14,22 @@
     .cbg_primary {
         background-color: #070D25;
     }
-    .golden {
+
+    .cbg_goldden {
+        background-color: #D4AF37;
+    }
+
+    .goldden {
         color: #D4AF37;
+    }
+
+    .tgju-copyright,
+    .tgju-copyright a {
+        color: transparent !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        opacity: var(--swiper-pagination-bullet-opacity, 1);
+        background: #D4AF37 !important;
     }
 }
