@@ -869,6 +869,27 @@
     <!--  -->
 
     <script>
+        function convertToPersianNumbers(str) {
+            const persianDigits = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
+            return str.replace(/\d/g, (match) => persianDigits[parseInt(match)]);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // تمام اعداد موجود در صفحه را به فارسی تبدیل می‌کند
+            const elements = document.querySelectorAll('body *');
+            elements.forEach(element => {
+                if (element.childNodes.length) {
+                    element.childNodes.forEach(child => {
+                        if (child.nodeType === Node.TEXT_NODE) {
+                            child.nodeValue = convertToPersianNumbers(child.nodeValue);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+
+    <script>
         var swiper = new Swiper(".vertical-slide-carousel", {
             loop: true,
             direction: 'vertical',
