@@ -145,22 +145,64 @@
     <!--  -->
 
     <!-- Mobile Navbar -->
-    <header class="lg:hidden w-full bg-black mb-6 flex items-center">
+    <header class="lg:hidden w-ful mb-6 flex items-center">
 
         <!-- Logo -->
-        <div class="flex flex-col justify-center items-center gap-3">
+        <div class="flex flex-col justify-center items-center gap-3 mb-4">
             <img src="../assets/images/favicon.svg" alt="Logo"
                 class="w-40 h-36 hover:scale-110 transition-all duration-300 cursor-pointer">
+            <h1 class="font-bold text-xl text-gray-400">به گالری طلا و جواهر نیل خوش آمدید</h1>
         </div>
         <!--  -->
 
-        <!-- Hamburger Button -->
-        <div class="fixed bottom-0 left-0 right-0 bg-black p-4 flex justify-between items-center">
-            <nav class="flex gap-4 mr-8">
-                <a href="#" class="text-gray-400 hover:text-white">انگشتر</a>
-                <a href="#" class="text-gray-400 hover:text-white">گردنبند</a>
-                <a href="#" class="text-gray-400 hover:text-white">دستبند</a>
-                <a href="#" class="text-gray-400 hover:text-white">گوشواره</a>
+        <!-- Menu List -->
+        <div class="fixed bottom-0 left-0 right-0 bg-black p-4 flex justify-center items-center z-100">
+            <nav class="flex gap-4 mr-4 z-100">
+
+                <div class="flex justify-center items-center gap-2">
+                    <i class="active">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="#D4AF37"> >
+                            <path stroke-linecap="round"
+                                d="M29.333 29.333H2.667M2.667 14.667 13.5 5.999a4 4 0 0 1 4.998 0l10.834 8.668M20.666 7.333V4.667c0-.369.299-.667.667-.667h3.334c.368 0 .666.298.666.667v6.666M5.333 29.333V12.667M26.666 29.333V12.667" />
+                            <path
+                                d="M20 29.333v-6.666c0-1.886 0-2.829-.586-3.415-.586-.585-1.528-.585-3.414-.585-1.886 0-2.828 0-3.414.585-.586.586-.586 1.53-.586 3.415v6.666M18.667 12.667a2.667 2.667 0 1 1-5.333 0 2.667 2.667 0 0 1 5.333 0Z" />
+                        </svg>
+                    </i>
+                    <a href="#" class="goldden hover:text-white">خانه</a>
+                </div>
+
+                <div class="flex justify-center items-center gap-2">
+                    <i class="hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="#fff">
+                            <path
+                                d="M7.12 3.167h2.533c1.37 0 2.334.36 2.955.983.583.584.933 1.466.97 2.702l.002.252V9.64c0 1.37-.36 2.333-.983 2.956-.624.624-1.587.984-2.956.984H7.107c-1.369 0-2.333-.36-2.957-.984-.623-.623-.983-1.586-.983-2.956V7.107c0-1.369.36-2.333.984-2.956.625-.623 1.593-.984 2.97-.984ZM22.36 3.167h2.534c1.369 0 2.332.36 2.956.983.623.623.983 1.588.983 2.957V9.64c0 1.37-.36 2.333-.983 2.956-.624.624-1.587.984-2.956.984H22.36c-1.37 0-2.333-.36-2.957-.984-.623-.623-.983-1.586-.983-2.956V7.107c0-1.37.36-2.334.983-2.957.624-.623 1.588-.983 2.957-.983ZM22.36 18.407h2.534c1.369 0 2.332.36 2.956.983.623.623.983 1.588.983 2.957v2.533c0 1.37-.36 2.333-.983 2.956-.624.624-1.587.984-2.956.984H22.36c-1.37 0-2.333-.36-2.957-.984-.623-.623-.983-1.586-.983-2.956v-2.533c0-1.37.36-2.334.983-2.957.624-.623 1.588-.983 2.957-.983ZM7.12 18.407h2.533c1.37 0 2.333.36 2.954.984.583.585.934 1.471.97 2.714l.003.253v2.535c0 1.37-.36 2.334-.983 2.957-.624.623-1.587.983-2.956.983H7.107c-1.369 0-2.332-.36-2.956-.985-.623-.625-.984-1.591-.984-2.968v-2.533c0-1.369.36-2.333.984-2.956.625-.623 1.593-.984 2.97-.984Z" />
+                        </svg>
+                    </i>
+                    <p href="#" class="text-gray-400 hover:text-white">دسته بندی</p>
+                </div>
+
+                <div class="flex justify-center items-center gap-2">
+                    <i class="hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="#fff">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M22.338 13.692V6.77c0-1.53-.668-2.997-1.856-4.08C19.294 1.609 17.682 1 16.001 1s-3.293.608-4.482 1.69c-1.188 1.082-1.856 2.55-1.856 4.08v6.922m19.192-3.066 2.134 18.462C31.108 30.11 30.23 31 29.1 31H2.902c-.266 0-.53-.05-.774-.15a1.906 1.906 0 0 1-.64-.422 1.7 1.7 0 0 1-.396-.624 1.585 1.585 0 0 1-.083-.716l2.137-18.462c.049-.425.27-.819.619-1.105.349-.286.802-.444 1.272-.444h21.926c.973 0 1.79.67 1.89 1.55Zm-18.558 3.066c0 .153-.067.3-.186.408a.667.667 0 0 1-.448.17.667.667 0 0 1-.448-.17.552.552 0 0 1-.185-.408c0-.153.066-.3.185-.408a.667.667 0 0 1 .448-.169c.168 0 .33.061.448.17a.552.552 0 0 1 .186.407Zm12.675 0c0 .153-.067.3-.186.408a.667.667 0 0 1-.448.17.667.667 0 0 1-.448-.17.552.552 0 0 1-.186-.408c0-.153.067-.3.186-.408a.667.667 0 0 1 .448-.169c.168 0 .33.061.448.17a.552.552 0 0 1 .186.407Z">
+                            </path>
+                        </svg>
+                    </i>
+                    <a href="#" class="text-gray-400 hover:text-white">سبد خرید</a>
+                </div>
+
+                <div class="flex justify-center items-center gap-2">
+                    <i class="hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="#fff">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M25.97 27.208A12.478 12.478 0 0 0 16 22.25a12.48 12.48 0 0 0-9.97 4.958m19.94 0a14.998 14.998 0 0 0 4.05-16.54 15 15 0 1 0-23.99 16.54m19.94 0A14.947 14.947 0 0 1 16 31a14.944 14.944 0 0 1-9.97-3.792M21 12.25a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z">
+                            </path>
+                        </svg>
+                    </i>
+                    <a href="#" class="text-gray-400 hover:text-white">پروفایل</a>
+                </div>
+
             </nav>
         </div>
         <!--  -->
