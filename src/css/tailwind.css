@@ -1,4 +1,5 @@
 @import url("../../src/css/fonts.css");
+@import url("../../src/css/extensions/swiper.css");
 @import "tailwindcss";
 
 @layer components {
@@ -31,5 +32,13 @@
     .swiper-pagination-bullet-active {
         opacity: var(--swiper-pagination-bullet-opacity, 1);
         background: #D4AF37 !important;
+    }
+
+    .card-category span {
+        display: none;
+    }
+
+    .card-category:hover span {
+        display: block;
     }
 }
