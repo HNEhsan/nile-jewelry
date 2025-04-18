@@ -1,6 +1,6 @@
 // import module 
-import { creatMainFooter } from "./component/footer.js";
-import { creatMainHeader } from "./component/header.js";
+import { creatMainFooter } from "./components/footer.js";
+import { creatMainHeader } from "./components/header.js";
 import { persianNumber } from "./lib/persianNumber.js";
 
 /**
