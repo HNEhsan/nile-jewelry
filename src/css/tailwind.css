@@ -37,6 +37,10 @@
         color: transparent !important;
     }
 
+    .productList .swiper-slide {
+        width: 280px !important;
+    }
+
     .swiper-pagination-bullet-active {
         opacity: var(--swiper-pagination-bullet-opacity, 1);
         background: #D4AF37 !important;
