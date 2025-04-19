@@ -316,9 +316,6 @@
   .ml-8 {
     margin-left: calc(var(--spacing) * 8);
   }
-  .ml-16 {
-    margin-left: calc(var(--spacing) * 16);
-  }
   .block {
     display: block;
   }
@@ -330,9 +327,6 @@
   }
   .hidden {
     display: none;
-  }
-  .inline {
-    display: inline;
   }
   .h-4 {
     height: calc(var(--spacing) * 4);
@@ -870,8 +864,8 @@
   .golden {
     color: #D4AF37;
   }
-  .tgju-widget-item {
-    width: 300px;
+  .tgju-widget .widget-low {
+    min-width: 300px;
   }
   .tgju-widget-item:hover {
     cursor: pointer;

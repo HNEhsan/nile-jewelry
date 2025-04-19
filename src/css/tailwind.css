@@ -24,8 +24,8 @@
         color: #D4AF37;
     }
 
-    .tgju-widget-item{
-        width: 300px;
+    .tgju-widget .widget-low{
+        min-width: 300px;
     }
 
     .tgju-widget-item:hover {
