@@ -1,5 +1,5 @@
 // import module 
-import { creatAuthFoorter } from "./component/footer.js";
+import { creatAuthFoorter } from "./components/footer.js";
 import { getCookie } from "./lib/token.js";
 
 // This file contains the code for the authentication page
